@@ -25,11 +25,13 @@ function uuid(){
       continue;
     }
 
+    // no idea why, but this is almost 4x slow if either
+    // the increment is moved below or the >= is changed to >
+    j++;
     if (j >= r.length) {
       r = crypto.randomBytes(pool);
       j = 0;
     }
-    j++;
 
     if ('8' === ch) {
       strs[chi] = (8 + r[j] % 4).toString(16);
