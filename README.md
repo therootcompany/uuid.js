@@ -9,7 +9,7 @@ Well, while I was looking at [all that math](https://github.com/broofa/node-uuid
 Is that really all that more efficient than just accessing strings?
 (BTW, I was totally looking at [the wrong function](https://github.com/broofa/node-uuid/blob/master/uuid.js#L196))
 
-So I set out on a mission to make strings faster than bitwise operations, and I did! Over 2x faster! (generally in the range of 550,000/s instead of 250,000/s)
+So I set out on a mission to make 'if' blocks and strings faster than bitwise operations, and I did! Over 2x faster! (generally in the range of 550,000/s instead of 250,000/s)
 
 How is it 2x faster!?!?
 =========
