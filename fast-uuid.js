@@ -25,11 +25,11 @@ function uuid(){
       continue;
     }
 
-    j++;
     if (j >= r.length) {
       r = crypto.randomBytes(pool);
       j = 0;
     }
+    j++;
 
     if ('8' === ch) {
       strs[chi] = (8 + r[j] % 4).toString(16);
