@@ -1,6 +1,6 @@
 {
   "name": "@root/uuid",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Lightweight, no nonsense, 2x faster uuid.v4. 0 deps, of course.",
   "main": "uuid.js",
   "scripts": {
