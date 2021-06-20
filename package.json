@@ -1,0 +1,28 @@
+{
+  "name": "@root/uuid",
+  "version": "1.0.0",
+  "description": "Lightweight, no nonsense, 2x faster uuid.v4. 0 deps, of course.",
+  "main": "uuid.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/therootcompany/uuid.js.git"
+  },
+  "keywords": [
+    "uuid",
+    "v4",
+    "fast",
+    "lightweight",
+    "random",
+    "string",
+    "generator"
+  ],
+  "author": "AJ ONeal <coolaj86@gmail.com> (https://coolaj86.com/)",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/therootcompany/uuid.js/issues"
+  },
+  "homepage": "https://github.com/therootcompany/uuid.js#readme"
+}
