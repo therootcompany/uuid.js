@@ -26,6 +26,8 @@ come back to it because it's easy to read and understand (for me, at least).
 
 There are too many of these uuid modules out there and they're too complicated.
 
+## Live-Stream: Publishing this to NPM + Explanation
+
 [![root-uuid thumbnail](https://user-images.githubusercontent.com/122831/122829386-2dcfe180-d2a4-11eb-89f0-b269f009c7ce.jpg)](https://youtu.be/9px-CA0vjP8)
 
 ## node-uuid vs crazy-uuid vs fast-uuid
